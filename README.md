@@ -39,4 +39,5 @@ Test->SimpleTestDelegate += (MyObjectPtr, [&]{ DoSomeStuff(); });
 1. Write some docs
 2. Dedicate this code to plugin
 3. Support all dynamic delegates with parameters
-4. TBD
+4. Implement unsubscription 
+5. TBD
