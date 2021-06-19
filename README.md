@@ -2,6 +2,7 @@
 Lambda support for Unreal Engine dynamic delegates\
 This is experimental feature. Now only parametless lambdas are supported \
 To see more details, explore tests and implementation :)
+Update: this repo isn't abandoned, parametrized delegates support reqiures more time for invastigation
 
 ## How to use
 Usage is very simple:
@@ -36,8 +37,8 @@ Test->SimpleTestDelegate += (MyObjectPtr, [&]{ DoSomeStuff(); });
 ```
 
 ## Next steps
+0. Support all dynamic delegates with parameters
 1. Write some docs
 2. Dedicate this code to plugin
-3. Support all dynamic delegates with parameters
-4. Implement unsubscription 
-5. TBD
+3. Implement unsubscription 
+4. TBD
