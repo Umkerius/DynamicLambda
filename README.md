@@ -1,7 +1,7 @@
 # DynamicLambda
 Lambda support for Unreal Engine dynamic delegates\
 This is experimental feature. Now only parametless lambdas are supported \
-To see more details, explore tests and implementation :)
+To see more details, explore tests and implementation :)\
 Update: this repo isn't abandoned, parametrized delegates support reqiures more time for invastigation
 
 ## How to use
@@ -32,7 +32,7 @@ public:
 // Short subscription form is preffered
 Test->SimpleTestDelegate += [&] { DoSomeStuff(); };
 
-// To bind 'weak' lambda, use 'tuple' syntax
+// To bind 'weak' lambda use 'tuple' syntax
 Test->SimpleTestDelegate += (MyObjectPtr, [&]{ DoSomeStuff(); });
 ```
 
